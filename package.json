@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm install --legacy-peer-deps && npm run build-your-script",
+    "build": "npm install --force && npm run build-your-script",
     "build-your-script": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
