@@ -1,28 +1,31 @@
 const path = require('path');
 
 module.exports = {
-  entry: './project/src/index.js',  // Entry point of your application
+  entry: './project/src/index.js',
   output: {
-    filename: 'bundle.js',          // Output bundle file name
-    path: path.resolve(__dirname, 'dist'),  // Output path
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist'),
   },
   module: {
     rules: [
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader']  // Loaders for processing CSS files
+        use: ['style-loader', 'css-loader']
       },
       {
-        test: /\.js$/,                      // Rule for JavaScript files
-        exclude: /node_modules/,            // Exclude the node_modules directory
+        test: /\.js$/,
+        exclude: /node_modules/,
         use: {
-          loader: 'babel-loader',           // Use babel-loader for JavaScript files
+          loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env'], // Use @babel/preset-env for compiling JS
+            presets: ['@babel/preset-env'],
           }
         }
       },
-      // Add other loaders for different file types as needed
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/,
+        type: 'asset/resource',  // This will handle your images
+      }
     ]
   }
 };
