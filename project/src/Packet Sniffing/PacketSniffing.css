@@ -15,7 +15,7 @@
 body {
     font-family: 'system-ui';
     background-color: var(--background-color);
-    background-image: url('C:\\Users\\soham\\Final Year Project\\project\\public\\bgv2.jpg');
+    background-image: url('../../public/bgv2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
