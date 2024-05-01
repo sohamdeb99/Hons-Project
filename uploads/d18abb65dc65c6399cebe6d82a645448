@@ -1,0 +1,103 @@
+No.,Time,Source,Destination,num_file_creations,Length,Info
+1,0,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+2,0.716822,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+3,0.998287,192.168.0.98,52.114.76.237,TLSv1.2,112,Application Data
+4,1.029204,52.114.76.237,192.168.0.98,TLSv1.2,101,Application Data
+5,1.074301,192.168.0.98,52.114.76.237,TCP,54,56642  >  443 [ACK] Seq=59 Ack=48 Win=512 Len=0
+6,1.433845,fd5d:c8bd:61:0:4d84:6f04:fce8:b21c,ff02::1:ffa2:7d88,ICMPv6,86,Neighbor Solicitation for fd5d:c8bd:61:0:a2bd:cdff:fea2:7d88 from 12:52:63:5b:8c:8f
+7,1.536187,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+8,2.25324,fd5d:c8bd:61:0:4d84:6f04:fce8:b21c,ff02::1:ffa2:7d88,ICMPv6,86,Neighbor Solicitation for fd5d:c8bd:61:0:a2bd:cdff:fea2:7d88 from 12:52:63:5b:8c:8f
+9,2.25324,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+10,2.663207,2a00:1450:4009:822::2004,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,TCP,74,"443  >  57601 [FIN, ACK] Seq=1 Ack=1 Win=264 Len=0"
+11,2.663287,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,2a00:1450:4009:822::2004,TCP,74,57601  >  443 [ACK] Seq=1 Ack=2 Win=511 Len=0
+12,2.970702,MS-NLB-PhysServer-15_b5:38:49:ea,Broadcast,0x7380,43,Ethernet II
+13,2.970702,fd5d:c8bd:61:0:4d84:6f04:fce8:b21c,ff02::1:ffa2:7d88,ICMPv6,86,Neighbor Solicitation for fd5d:c8bd:61:0:a2bd:cdff:fea2:7d88 from 12:52:63:5b:8c:8f
+14,3.072121,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+15,3.788719,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+16,4.608013,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+17,4.777935,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,2606:4700::6810:3865,TCP,75,57434  >  443 [ACK] Seq=1 Ack=1 Win=514 Len=1 [TCP segment of a reassembled PDU]
+18,4.786141,2606:4700::6810:3865,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,TCP,86,443  >  57434 [ACK] Seq=1 Ack=2 Win=8 Len=0 SLE=1 SRE=2
+19,4.79312,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,2606:4700::6810:3965,TCP,75,57435  >  443 [ACK] Seq=1 Ack=1 Win=510 Len=1 [TCP segment of a reassembled PDU]
+20,4.798912,2606:4700::6810:3965,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,TCP,86,443  >  57435 [ACK] Seq=1 Ack=2 Win=8 Len=0 SLE=1 SRE=2
+21,4.915516,SkyUk_a2:7d:89,Broadcast,0x7380,43,Ethernet II
+22,5.32541,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+23,5.342821,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,2a00:1450:4009:822::2004,TCP,74,"57601  >  443 [FIN, ACK] Seq=1 Ack=2 Win=511 Len=0"
+24,5.352261,2a00:1450:4009:822::2004,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,TCP,74,443  >  57601 [ACK] Seq=2 Ack=2 Win=264 Len=0
+25,5.530211,2a01:4ff:1f0:ca4b::1,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,TLSv1.2,113,Application Data
+26,5.530211,2a01:4ff:1f0:ca4b::1,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,TLSv1.2,98,Application Data
+27,5.530282,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,2a01:4ff:1f0:ca4b::1,TCP,74,57440  >  443 [ACK] Seq=1 Ack=65 Win=8199 Len=0
+28,5.530368,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,2a01:4ff:1f0:ca4b::1,TCP,74,"57440  >  443 [FIN, ACK] Seq=1 Ack=65 Win=8199 Len=0"
+29,5.735073,2a01:4ff:1f0:ca4b::1,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,TCP,74,443  >  57440 [ACK] Seq=65 Ack=2 Win=501 Len=0
+30,6.123999,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,2a00:1450:4009:822::200e,TCP,75,57464  >  443 [ACK] Seq=1 Ack=1 Win=507 Len=1 [TCP segment of a reassembled PDU]
+31,6.133088,2a00:1450:4009:822::200e,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,TCP,86,443  >  57464 [ACK] Seq=1 Ack=2 Win=264 Len=0 SLE=1 SRE=2
+32,6.145796,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+33,6.861083,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+34,7.680801,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+35,7.681402,fe80::a2bd:cdff:fea2:7d89,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,ICMPv6,86,Neighbor Solicitation for 2a02:c7c:516e:9a00:1187:5196:5d97:69e4 from a0:bd:cd:a2:7d:89
+36,7.681466,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,fe80::a2bd:cdff:fea2:7d89,ICMPv6,86,"Neighbor Advertisement 2a02:c7c:516e:9a00:1187:5196:5d97:69e4 (sol, ovr) is at 10:a5:1d:34:36:22"
+37,8.397142,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+38,8.646846,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,2a00:1450:400c:c02::bc,TCP,75,56686  >  443 [ACK] Seq=1 Ack=1 Win=509 Len=1 [TCP segment of a reassembled PDU]
+39,8.661037,2a00:1450:400c:c02::bc,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,TCP,86,443  >  56686 [ACK] Seq=1 Ack=2 Win=265 Len=0 SLE=1 SRE=2
+40,9.216137,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+41,9.932968,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+42,10.751928,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+43,11.46933,fd5d:c8bd:61:0:4d84:6f04:fce8:b21c,ff02::1:ffa2:7d88,ICMPv6,86,Neighbor Solicitation for fd5d:c8bd:61:0:a2bd:cdff:fea2:7d88 from 12:52:63:5b:8c:8f
+44,11.46933,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+45,11.784032,02:c4:cb:2d:cc:49,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.10
+46,12.083713,fe80::c4:cbff:fe2d:cc49,ff02::16,ICMPv6,110,Multicast Listener Report Message v2
+47,12.18646,fd5d:c8bd:61:0:4d84:6f04:fce8:b21c,ff02::1:ffa2:7d88,ICMPv6,86,Neighbor Solicitation for fd5d:c8bd:61:0:a2bd:cdff:fea2:7d88 from 12:52:63:5b:8c:8f
+48,12.289032,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+49,12.699372,2a00:1450:4009:820::2008,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,TLSv1.2,147,Application Data
+50,12.699726,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,2a00:1450:4009:820::2008,TCP,74,"57436  >  443 [FIN, ACK] Seq=1 Ack=74 Win=511 Len=0"
+51,12.711445,2a00:1450:4009:820::2008,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,TCP,74,"443  >  57436 [FIN, ACK] Seq=74 Ack=2 Win=265 Len=0"
+52,12.711529,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,2a00:1450:4009:820::2008,TCP,74,57436  >  443 [ACK] Seq=2 Ack=75 Win=511 Len=0
+53,12.904113,2001:4860:4802:34::36,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,TLSv1.2,147,Application Data
+54,12.904315,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,2001:4860:4802:34::36,TCP,74,"57438  >  443 [FIN, ACK] Seq=1 Ack=74 Win=512 Len=0"
+55,12.92387,2001:4860:4802:34::36,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,TCP,74,"443  >  57438 [FIN, ACK] Seq=74 Ack=2 Win=266 Len=0"
+56,12.923915,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,2001:4860:4802:34::36,TCP,74,57438  >  443 [ACK] Seq=2 Ack=75 Win=512 Len=0
+57,13.006668,fd5d:c8bd:61:0:4d84:6f04:fce8:b21c,ff02::1:ffa2:7d88,ICMPv6,86,Neighbor Solicitation for fd5d:c8bd:61:0:a2bd:cdff:fea2:7d88 from 12:52:63:5b:8c:8f
+58,13.006668,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+59,13.107233,fe80::a2bd:cdff:fea2:7d89,ff02::1:ff68:1585,ICMPv6,86,Neighbor Solicitation for fd5d:c8bd:61:0:e406:9a77:e368:1585 from a0:bd:cd:a2:7d:89
+60,13.154536,192.168.0.98,162.254.196.67,TLSv1.2,108,Application Data
+61,13.211471,fe80::a2bd:cdff:fea2:7d89,ff02::1:ff75:de1d,ICMPv6,86,Neighbor Solicitation for fe80::68f0:48ff:fe75:de1d from a0:bd:cd:a2:7d:89
+62,13.212354,162.254.196.67,192.168.0.98,TCP,54,27021  >  56715 [ACK] Seq=1 Ack=55 Win=1022 Len=0
+63,13.313691,fe80::a2bd:cdff:fea2:7d89,ff02::1:ff2f:32f9,ICMPv6,86,Neighbor Solicitation for 2a02:c7c:516e:9a00:51e9:4f25:a72f:32f9 from a0:bd:cd:a2:7d:89
+64,13.414429,fe80::a2bd:cdff:fea2:7d89,ff02::1:ff49:622b,ICMPv6,86,Neighbor Solicitation for fd5d:c8bd:61:0:85f:7b5b:da49:622b from a0:bd:cd:a2:7d:89
+65,13.516797,fe80::a2bd:cdff:fea2:7d89,ff02::1:ff75:de1d,ICMPv6,86,Neighbor Solicitation for fe80::68f0:48ff:fe75:de1d from a0:bd:cd:a2:7d:89
+66,13.82407,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+67,14.540783,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+68,15.052767,MS-NLB-PhysServer-15_b5:38:49:ea,Broadcast,0x7380,43,Ethernet II
+69,15.359878,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+70,16.077463,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+71,16.896375,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+72,16.896375,da:8a:77:5a:23:3c,Broadcast,ARP,42,Gratuitous ARP for 192.168.0.8 (Reply)
+73,16.982062,fd5d:c8bd:61:0:b18c:7fda:a64a:6c07,fd5d:c8bd:61:0:a2bd:cdff:fea2:7d88,DNS,89,Standard query 0x3dad A wpad.Home
+74,16.982659,fd5d:c8bd:61:0:b18c:7fda:a64a:6c07,fd5d:c8bd:61:0:a2bd:cdff:fea2:7d88,DNS,89,Standard query 0x1eac AAAA wpad.Home
+75,16.999324,fd5d:c8bd:61:0:a2bd:cdff:fea2:7d88,fd5d:c8bd:61:0:b18c:7fda:a64a:6c07,DNS,164,Standard query response 0x3dad No such name A wpad.Home SOA a.root-servers.net
+76,17.005716,fd5d:c8bd:61:0:a2bd:cdff:fea2:7d88,fd5d:c8bd:61:0:b18c:7fda:a64a:6c07,DNS,164,Standard query response 0x1eac No such name AAAA wpad.Home SOA a.root-servers.net
+77,17.102519,SkyUk_a2:7d:89,Broadcast,0x7380,43,Ethernet II
+78,17.613283,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+79,17.921754,52.168.117.169,192.168.0.98,TCP,54,"443  >  57501 [RST, ACK] Seq=1 Ack=1 Win=0 Len=0"
+80,18.431989,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+81,19.14881,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+82,19.967983,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2
+83,20.089496,192.168.0.98,192.168.0.1,DNS,83,Standard query 0x377d AAAA appsanywhere.lsbu.ac.uk
+84,20.089749,192.168.0.98,192.168.0.1,DNS,83,Standard query 0x27d2 A appsanywhere.lsbu.ac.uk
+85,20.089899,192.168.0.98,192.168.0.1,DNS,83,Standard query 0x63b5 HTTPS appsanywhere.lsbu.ac.uk
+86,20.109772,192.168.0.1,192.168.0.98,DNS,83,Standard query response 0x377d AAAA appsanywhere.lsbu.ac.uk
+87,20.112957,192.168.0.1,192.168.0.98,DNS,195,Standard query response 0x27d2 A appsanywhere.lsbu.ac.uk CNAME lsbu.appsanywhere.online CNAME lsbu-appsanywhere.uksouth.cloudapp.azure.com A 20.77.86.92
+88,20.113367,192.168.0.1,192.168.0.98,DNS,249,Standard query response 0x63b5 HTTPS appsanywhere.lsbu.ac.uk CNAME lsbu.appsanywhere.online CNAME lsbu-appsanywhere.uksouth.cloudapp.azure.com SOA ns1-01.azure-dns.com
+89,20.113752,192.168.0.98,20.77.86.92,TCP,66,57625  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+90,20.12802,20.77.86.92,192.168.0.98,TCP,66,"443  >  57625 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1446 SACK_PERM WS=128"
+91,20.128135,192.168.0.98,20.77.86.92,TCP,54,57625  >  443 [ACK] Seq=1 Ack=1 Win=131584 Len=0
+92,20.128578,192.168.0.98,20.77.86.92,TLSv1.2,869,Client Hello (SNI=appsanywhere.lsbu.ac.uk)
+93,20.14209,20.77.86.92,192.168.0.98,TCP,54,443  >  57625 [ACK] Seq=1 Ack=816 Win=32128 Len=0
+94,20.142779,20.77.86.92,192.168.0.98,TLSv1.2,210,"Server Hello, Change Cipher Spec, Encrypted Handshake Message"
+95,20.143177,192.168.0.98,20.77.86.92,TLSv1.2,105,"Change Cipher Spec, Encrypted Handshake Message"
+96,20.143324,192.168.0.98,20.77.86.92,TLSv1.2,694,Application Data
+97,20.15677,20.77.86.92,192.168.0.98,TCP,56,443  >  57625 [ACK] Seq=157 Ack=1507 Win=33792 Len=0
+98,20.480578,20.77.86.92,192.168.0.98,TLSv1.2,807,Application Data
+99,20.526443,192.168.0.98,20.77.86.92,TCP,54,57625  >  443 [ACK] Seq=1507 Ack=910 Win=130560 Len=0
+100,20.667086,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,2606:4700:4400::6812:25e4,TCP,75,56688  >  443 [ACK] Seq=1 Ack=1 Win=513 Len=1 [TCP segment of a reassembled PDU]
+101,20.676208,2606:4700:4400::6812:25e4,2a02:c7c:516e:9a00:1187:5196:5d97:69e4,TCP,86,443  >  56688 [ACK] Seq=1 Ack=2 Win=164 Len=0 SLE=1 SRE=2
+102,20.686382,12:52:63:5b:8c:8f,Broadcast,ARP,42,Who has 192.168.0.1? Tell 192.168.0.2

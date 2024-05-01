@@ -1,0 +1,235 @@
+:root {
+    --white: #ffffff;
+    --input-bg: #f7f7f7;
+    --nav-color: #1976d2;
+    --primary-color: #FFD700;
+    --popup-bg: #2f2f2f;
+    --text-dark: #333;
+    --nav-height: 150px;
+    --background-color: #1a1a2e;
+    --card-background-color: #16213e;
+    --accent-color: #FFD700;
+    --font-color: #eaeaea;
+}
+
+body {
+    font-family: 'system-ui';
+    background-color: var(--background-color);
+    background-image: url('C:\\Users\\soham\\Final Year Project\\project\\public\\bgv2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: var(--font-color);
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 29px;
+}
+
+.log-container {
+    background: linear-gradient(313deg, #181835, #1b1916);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#file-log-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#file-log-list li {
+    background-color: var(--popup-bg);
+    color: var(--font-color);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#file-log-list li:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .log-container {
+        width: 90%;
+    }
+}
+
+/* ... existing styles ... */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: var(--popup-bg);
+    color: var(--font-color);
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: center;
+    border-bottom: 1px solid var(--white);
+}
+
+th {
+    background-color: var(--nav-color);
+    color: var(--white);
+}
+
+tr:nth-child(even) {
+    background-color: linear-gradient(313deg, #181835, #1b1916);;
+}
+
+@media (max-width: 768px) {
+    .log-container {
+        width: 90%;
+    }
+
+    table {
+        font-size: 0.8rem;
+    }
+}
+
+body {
+    padding-right: 0 !important;
+ }
+/* Parent container styles */
+.main-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 85vh; /* Optional: Adjust based on your layout needs */
+}
+
+/* Your existing .alert-section styles */
+.alert-section {
+    flex-basis: 50%; /* Each section takes up half the width */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(313deg, #181835, #1b1916);
+    border: 1px solid #fff;
+}
+
+
+/* Alert styles */
+.alert-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.alert-section li {
+    background-color: var(--popup-bg);
+    color: var(--font-color);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.alert-section li:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .log-section, .alert-section {
+        max-width: 100%;
+        flex-basis: auto; /* Reset flex-basis for mobile view */
+    }
+}
+
+/* Continue with existing styles... */
+/* .marker-icon-low {
+    filter: hue-rotate(200deg) brightness(130%);
+  }
+  
+  .marker-icon-medium {
+    filter: hue-rotate(30deg) brightness(130%);
+  }
+  
+  .marker-icon-high {
+    filter: hue-rotate(-10deg) brightness(130%);
+  } */
+
+  @keyframes pulse-animation {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(3);
+      opacity: 0;
+    }
+  }
+  
+  .pulse-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pulse-layer {
+    position: absolute;
+    border-radius: 50%;
+    animation: pulse-animation 2s infinite ease-out;
+    border: 2px solid;
+  }
+  
+  .pulse-layer:nth-child(1) {
+    width: 4px;
+    height: 4px;
+    margin: -10px 0 0 -10px; /* Center the layer */
+    animation-delay: -1.4s;
+  }
+  
+  .pulse-layer:nth-child(2) {
+    width: 20px;
+    height: 20px;
+    margin: -18px 0 0 -18px; /* Center the layer */
+    animation-delay: -0.7s;
+  }
+  
+  .pulse-layer:nth-child(3) {
+    width: 40px;
+    height: 40px;
+    margin: -28px 0 0 -28px; /* Center the layer */
+    animation-delay: 0s;
+  }
+  
+  .marker-icon-low .pulse-layer { border-color: #00f; }
+  .marker-icon-medium .pulse-layer { border-color: #ffa500; }
+  .marker-icon-high .pulse-layer { border-color: #f00; }
+  
+  

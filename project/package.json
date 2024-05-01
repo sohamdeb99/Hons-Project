@@ -1,0 +1,79 @@
+{
+  "name": "final-year-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "client": "npm start --prefix client",
+    "start-flask": "python \"./project/src/Artificial Intelligence/app.py\"",
+    "dev": "npx concurrently \"npm start\" \"npm run client\" \"npm run start-flask\""
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.6",
+    "@mui/material": "^5.15.6",
+    "@mui/x-charts": "^6.19.1",
+    "@mui/x-data-grid": "^6.19.2",
+    "axios": "^1.6.7",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "chart.js": "^4.4.1",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "docx": "^8.5.0",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "file-saver": "^2.0.5",
+    "form-data": "^4.0.0",
+    "html2canvas": "^1.4.1",
+    "http-proxy-middleware": "^2.0.6",
+    "jsonwebtoken": "^9.0.2",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.1",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.1",
+    "multer": "^1.4.5-lts.1",
+    "react": "^17.0.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^17.0.0",
+    "react-dropzone": "^14.2.3",
+    "react-router-dom": "^6.21.3",
+    "react-scripts": "^5.0.1",
+    "react-swipeable-views": "^0.14.0",
+    "react-swipeable-views-utils": "^0.14.0",
+    "react-swiper": "^0.1.5",
+    "read-excel-file": "^5.7.1",
+    "sequelize": "^6.35.2",
+    "socket.io": "^4.7.4",
+    "socket.io-client": "^4.7.4",
+    "styled-components": "^6.1.8",
+    "swiper": "^11.0.5"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "concurrently": "^8.2.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

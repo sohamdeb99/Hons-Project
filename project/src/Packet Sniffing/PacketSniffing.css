@@ -1,0 +1,92 @@
+:root {
+    --white: #ffffff;
+    --input-bg: #f7f7f7;
+    --nav-color: #1976d2;
+    --primary-color: #FFD700;
+    --popup-bg: #2f2f2f;
+    --text-dark: #333;
+    --nav-height: 150px;
+    --background-color: #1a1a2e;
+    --card-background-color: #16213e;
+    --accent-color: #FFD700;
+    --font-color: #eaeaea;
+}
+
+body {
+    font-family: 'system-ui';
+    background-color: var(--background-color);
+    background-image: url('C:\\Users\\soham\\Final Year Project\\project\\public\\bgv2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: var(--font-color);
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 193px;
+}
+
+.upload-section {
+    background: linear-gradient(313deg, #181835, #1b1916);;
+    padding: 2rem;
+    border: 1px solid #ffffff80;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 181px;
+    text-align: center;
+}
+
+.custom-upload-btn {
+    background-color: var(--nav-color);
+    color: var(--white);
+    padding: 12px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.custom-upload-btn:focus {
+    background-color: #3a3d40;
+    outline: none;
+}
+
+h2 {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+button {
+    padding: 12px 25px;
+    /* background-color: var(--nav-color); */
+    color: var(--white);
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 1rem auto;
+    display: block;
+}
+
+/* button:focus {
+    background-color: #145DA0;
+    outline: none;
+} */
+
+
+.logo img {
+    width: 108px;
+    vertical-align: middle;
+}

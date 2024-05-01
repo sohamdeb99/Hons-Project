@@ -1,0 +1,208 @@
+/* Root variables for consistent styling */
+:root {
+    --white: #ffffff;
+    --input-bg: #f7f7f7;
+    --nav-color: #db3223;
+    --primary-color: #FFD700;
+    --popup-bg: #2f2f2f;
+    --text-dark: #333;
+    --nav-height: 150px;
+    --chart-bg: #ffffff; /* Chart background */
+    --chart-border-color: #e0e0e0; /* Chart border color */
+}
+
+body {
+    font-family: 'system ui';
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: var(--text-dark);
+}
+
+/* Title styling */
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--nav-color);
+    font-size: 2em;
+}
+
+.chart-title {
+    text-align: center;
+    color: gold;
+    margin-bottom: 10px;
+    font-family: system-ui;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Chart container for side-by-side layout */
+.chart-container {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: auto;
+}
+
+/* Individual chart styling */
+.chart-container > div {
+    background: linear-gradient(314deg, #707070, #fff);
+    flex-basis: 48%; /* Adjust based on your layout preference */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    overflow: hidden; /* For rounded corners */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .chart-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .chart-container > div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.chart-container .MuiSvg-root .x-axis text {
+    fill: white !important; /* Force white color on all x-axis text elements */
+}
+
+/* Main container for the visualization, which holds both chart boxes */
+.visualization-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.title-box {
+  margin-bottom: 20px;
+  width: 92%;
+  background: linear-gradient(313deg, #181835, #1b1916); 
+  padding-left: 20px; 
+  padding-right: 20px;
+  padding-top: 10px; 
+  padding-bottom: 5px;
+  border: 1px solid #ffffff80;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+  border-radius: 8px;
+  text-align: center;
+  color: gold;
+}
+
+.chart-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Updated to use grid for equal spacing */
+  gap: 20px; /* Adjust the space between charts as needed */
+  width: 100%;
+}
+
+.chart-box > div {
+  background: linear-gradient(313deg, #181835, #1b1916); /* White background for each chart container */
+  padding: 20px; /* Adds padding around the chart for better visual separation */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow for depth */
+  border: 1px solid #ffffff80;
+  border-radius: 8px; /* Optional: Rounds the corners of the chart containers */
+  text-align: center;
+  color: gold;
+}
+
+/* Existing styles */
+
+.chart-box, .additional-metrics {
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  width: 95%;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px; /* Adds space below each row of charts */
+}
+
+.chart-container, .additional-metrics > div {
+  background: linear-gradient(313deg, #181835, #1b1916); /* White background for each chart container */
+  padding: 20px; /* Adds padding around the chart for better visual separation */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow for depth */
+  border: 1px solid #ffffff80;
+  border-radius: 8px; /* Optional: Rounds the corners of the chart containers */
+  text-align: center;
+  color: gold;
+  flex: 1; /* Each chart takes equal space */
+  min-width: 280px; /* Minimum width for each chart to ensure it looks good */
+  max-width: calc(33.333% - 20px);
+}
+
+@media (min-width: 768px) { /* Adjust for medium screens and up */
+  .chart-box > div, .additional-metrics > div {
+    flex-basis: calc(50% - 20px); /* Adjust so two charts fit in a line on medium screens */
+  }
+}
+
+
+
+  
+.info-boxes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.info-box {
+  min-width: 176px; /* Increased width */
+  margin: 5px;
+  padding: 15px;
+  background: linear-gradient(313deg, #181835, #1b1916);
+  border: 1px solid #ffffff80;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gold;
+}
+
+.download-report-btn {
+  padding: 10px 20px;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border: 1px solid #ffffff80;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+body {
+  padding-right: 0 !important;
+}
+
+.download-report-btn:hover {
+  background-color: #0056b3; /* A darker shade of blue */
+}
+
+h4 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+
+
+strong {
+  color: var(--primary-color);
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 500;
+}
