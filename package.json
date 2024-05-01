@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir build && npm install --force && npm run build-your-script",
+    "build": "react-scripts build && cp public/_redirects build/_redirects",
     "build-your-script": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
